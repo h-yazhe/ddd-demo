@@ -15,6 +15,7 @@
             <groupId>com.hyz.ddd.demo</groupId>
             <artifactId>application</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>

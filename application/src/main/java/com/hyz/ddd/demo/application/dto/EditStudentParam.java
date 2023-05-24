@@ -1,23 +1,27 @@
-package com.hyz.ddd.demo.domain.cmd;
+package com.hyz.ddd.demo.application.dto;
 
 import com.hyz.ddd.demo.domain.model.SchoolClass;
-import com.hyz.ddd.demo.domain.model.StudentAbility;
 import lombok.Data;
 
+/**
+ * name：
+ * desc:
+ *
+ * @author HuangYaZhe
+ * @since 2023/5/19
+ */
 @Data
-public class EditStudentCmd {
+public class EditStudentParam {
+
+    private Long studentId;
 
     private String name;
 
     private SchoolClass schoolClass;
-
-    private StudentAbility.Type type;
 
     private Integer age;
 
     private String address;
 
     private String phone;
-
-    private String remark;
 }
